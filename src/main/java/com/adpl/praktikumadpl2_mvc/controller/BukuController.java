@@ -52,6 +52,7 @@ public class BukuController {
         model.tambahBuku(new Buku(judul, penulis, tahunTerbit));
         view.tampilkanData(model.getSemuaBuku());
         view.kosongkanForm();
+        view.tampilkanInfo("INFO", "Buku Berhasil Ditambahkan");
     }
     
     public void hapusBuku(){
