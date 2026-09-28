@@ -71,5 +71,6 @@ public class BukuController {
         model.hapusSemua();
         view.tampilkanData(model.getSemuaBuku());
         view.kosongkanForm();
+        view.tampilkanInfo("INFO", "Semua Data Buku Berhasil Dihapus");
     }
 }
