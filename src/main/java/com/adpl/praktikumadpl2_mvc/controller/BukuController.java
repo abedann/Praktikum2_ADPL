@@ -64,6 +64,7 @@ public class BukuController {
         
         model.hapusBuku(baris);
         view.tampilkanData(model.getSemuaBuku());
+        view.tampilkanInfo("INFO", "Buku Berhasil Dihapus");
     }
     
     public void clearBuku(){
