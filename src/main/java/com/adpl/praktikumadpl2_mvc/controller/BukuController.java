@@ -7,7 +7,6 @@ package com.adpl.praktikumadpl2_mvc.controller;
 import com.adpl.praktikumadpl2_mvc.model.Buku;
 import com.adpl.praktikumadpl2_mvc.model.BukuModel;
 import com.adpl.praktikumadpl2_mvc.view.BukuView;
-import java.awt.event.ActionListener;
 
 /**
  *
